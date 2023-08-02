@@ -105,3 +105,28 @@ h5{
     font-size: 13px;
     
 }
+@media (max-width :500px) {
+    nav{
+        height: 300px;
+
+    }
+    nav ul{
+        
+        display:list-item;
+    }
+    nav ul li a{
+        display:list-item;
+        margin: 35px;
+        margin-right: 400px;
+    }
+    #row{
+        width: 338px;
+        height: 3000px;
+    }
+    body,html{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+  
+
+}
